@@ -9,6 +9,12 @@
     padding: 16px;
     font-size: 50px;
 }
+.update h1
+{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
 .nav
 {
     margin: auto;
@@ -91,4 +97,23 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 15px;
+}
+.horizontal_container .aboutus
+{
+    display: flex;
+}
+.horizontal_container .aboutus div
+{
+    width: fit-content;
+}
+.horizontal_container div h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+.horizontal_container div p
+{
+    padding-top: 70px;
+    font-size: 40px;
+    vertical-align: middle;
 }
