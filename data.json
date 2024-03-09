@@ -1,0 +1,58 @@
+{
+    "home": 
+    [
+        {
+            "text":"Welcome to WORKOUT.COM! This website is designed to give basic information on working out. This information is geared towards beginners and aims to help beginners get into the gym to start bettering their lives.",
+            "image":"./images/welcome.png"
+        },
+        {
+            "text":"You'll find basic workout routines under the \"Routines\" tab and important nutritional information under the \"Nutrition\" tab. Our routines offer starting exercises and set/rep infromation for the main muscule groups in the body. Our nutritional information talks about how you can start to eat better and how nurtrition is incorporated into the gym.",
+            "image":"./images/Chad.png"
+        },
+        {
+            "text":"We're so excited you've decided to start a fitness journey. This isn't going to be easy but all you need to do is try you best. Hopefully our information helps you fall in love with the gym the same way we did. Hope you journey is awesome and rememeber \"stop wishing and start doing\"!",
+            "image":"./images/Start_doing.jpg"
+        } 
+    ],
+    "routines": 
+    [
+        {
+            "muscle_group": "Chest",
+            "description": "The main three chest exercises for this routine are Bench press, Inclined bench press, and Chest dips. These three exercises together target all parts of the pectoral muscle. Tricep extension and sholder press are added to the routine to add some cool down between chest exercises. Tricep extension and sholder press both hit adjacent muscle groups to the chest and prevent your chest muscles from fatiguing too quickly.",
+            "exercises": ["Bench Press (4-10)", "Inclined Bench Press (4-10)",  "Tricep Extension (3-10)", "Sholder Press (3-10)", "Assisted Chest Dips (3-8)"],
+            "image" : "./images/chest_image.png"
+        },
+        {
+            "muscle_group": "Back",
+            "description": "The main three back exercises for this routine are Lat pulldown, Seated cable row, and Seated facepulls. Lat pulldown and Seated cable rows both target the lats and Seated face pulls target you higher back and your rear sholder muscles. Assisted pull ups are a part of the routine as a warm up for the main back exercises and you'll ususally do lower weight as to not fatigue yourself. Finally you can do any Bicep curl variation as the last part of this routine. Your biceps are an adjacent muscle group to the back and it's smart to do a minor bicep exercise in a back routine.",
+            "exercises": ["Assisted Pull Ups (3-8)", "Lat Pulldown (4-10)", "Seated Cable Row (4-10)", "Seated Face Pull (3-10)", "Bicep Curls (3-15)"],
+            "image" : "./images/back_image.png"
+        },
+        {
+            "muscle_group": "Legs",
+            "description": "All of the exercises for this routine target the quads and hamstrings. Hack squat and Goblet squat are the hardest two of the five exercises because they work both muscles at the same time. You'll be able to lift more weight, but you're working multiple parts of your legs at once. Dumbell romainian deadifts and Leg curls only target the hamstrings and Leg extensions only target the quads. You won't be able to lift as much weight for these exercises becasue they isolate work to only one muscle.",
+            "exercises": ["Hack Squat (3-10)", "Goblet Squat (3-10)", "Dumbell Romanian Deadlift (3-10)", "Leg Extensions (4-10)", "Leg Curls (4-10)"],
+            "image" : "./images/legs_image.png"
+        },
+        {
+            "muscle_group": "Arms",
+            "description": "All the exercise for this routine target your triceps, biceps, or sholders. Lateral raises and Sholder press both work out your sholders. Fair warning Lateral raises are extremely difficult, so you shouldn't be ashamed of started at a very low weight. Tricep push down and Cable overhead tricep extension both work out your triceps and are both normally done on a cable machine. Lastly biceps curls work out your biceps. You can do any bicep curl variation with dumbells or straight bar.",
+            "exercises": ["Lateral Raises (3-15)", "Sholder Press (3-10)", "Tricep Push Down (4-10)", "Bicep Curls (4-15)", "Cable Overhead Tricep Extension (4-10)"],
+            "image" : "./images/arms_image.png"
+        },
+        {
+            "muscle_group": "Core",
+            "description": "All of the exercises for this routine focus on the core muscles. Crunches, Dead bug, and Plank all target the upper abdominal muscles. You can do any type of crunches you want, but regular crunches are the easiest to understand and get results out of. Russian twists focus of building you side core muscles. Finally, Mountain climbers build the lower abdominal muscles. It's important to drive your legs as far up as you can for mountain climbers.",
+            "exercises": ["Crunches (3-20)", "Russian Twists(3-15)", "Dead Bug (3-15)", "Plank (3-1min)", "Mountain Climbers (3-15)"],
+            "image" : "./images/core_image.png"
+        },
+        {
+            "muscle_group": "Cardio",
+            "description": "This routine focuses on moving your body for an extended period of time. Caridio is probably the easiest way to work out for a beginner and you can adjust the numbers above to fit your goals, but the important thing is to continue to move for the full routine. You don't have move fast, but you should be moving. 10 minute walk is the warm up. Then you transition into running for however long you can. Then you end the routine with a long inclince walk. Incline walk is a very solid exercise becasue it's just walking with extra resistance that isn't speed.",
+            "exercises": ["10 Minute Walk", "1 Mile Jog", "30 Minutes Incline Walk"],
+            "image" : "./images/cardio_image.png"
+        }
+    ],
+    "nutrition": [{}],
+    "aboutus": [{}]  
+}
