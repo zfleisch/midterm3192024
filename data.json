@@ -53,6 +53,36 @@
             "image" : "./images/cardio_image.png"
         }
     ],
-    "nutrition": [{}],
+    "nutrition":
+    [
+        {
+            "diet": "Mediterranean",
+            "description": "Long considered the gold standard for nutrition, disease prevention, wellness, and longevity. Mediterranean diets are rich in vegetables, fruits, whole grains, fish, nuts, lentils, and olive oil. While refined grains, trans fats, processed meats, added sugar, and other highly processed foods are limited.",
+            "benefits": "This diet’s emphasis on minimally processed foods and plants has been associated with increased life expectancy. This plan is best for maintaing weight and staying healthy.",
+            "downsides": "Since te Mediterranean diet does not put a big emphasis on dairy products, it’s important to make sure you still get enough calcium and vitamin D in your diet.",
+            "image": "./images/medi.jpeg"
+        },
+        {
+            "diet": "WeightWatchers",
+            "description": "The Weight Watchers diet is one of the most popular weight loss programs worldwide. It does not restrict any food group however people on WW must eat within their set number of daily points to reach their ideal weight.",
+            "benefits": "The most simple and straight forward. Eat less calories to lose weight. Due to this simplicity WW provides flexibility to eat what you want ",
+            "downsides": "Price: Wight watchers is not a free plan and depending on the subscription you get it can be costly.",
+            "image": "./images/WW_Logo.jpg"
+        },
+        {
+            "diet": "IntermittentFasting",
+            "description": "Intermittent fasting is a dietary strategy that cycles between periods of fasting and eating. Th emost common method is the 16/8 method which invloves limiting the time you eat to only 8 hours a day and fasting for the remaining 16 hours.",
+            "benefits": "Intermittent fasting has been linked to anti-aging effects, increased insulin sensitivity, improved brain health, and reduced inflammation.",
+            "downsides": "Fasting is difficult for some as you need to fight off your urge to eat during certain times of the day.",
+            "image": "./images/fast.png"
+        },
+        {
+            "diet": "Keto",
+            "description": "Low carb diets are among the most popular diets for weight loss. Examples include the Atkins diet, ketogenic (keto) diet, and low carb, high fat (LCHF) diet. Some varieties reduce carbs more drastically than others. For instance, very low carb diets like the keto diet restrict this macronutrient to under 10% of total calories, compared with 30% or less for other types.",
+            "benefits": "Low carb diets may reduce risk factors for heart disease, including high choleserol and blood pressure. It may also improve blood sugar and insulin levels.",
+            "downsides": "A low carb diet may however raise bad cholesterol levels. Very low carb diets can also be difficult to follow and cause upset stomachs in some people. If you do not want to change the type of food you eating intermittent fasting is the best as it only reduces the amount of food you eat and the schedule you eat.",
+            "image": "./images/keto.jpg"
+        }
+    ],
     "aboutus": [{}]  
 }

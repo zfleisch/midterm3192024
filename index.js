@@ -92,3 +92,31 @@ function getRoutine(input)
         }
     }
 }
+function getDiet(input) {
+    console.log(input);
+
+    fetch("./data.json")
+        .then(response => response.json())
+        .then(diet => loadDiet(diet));
+
+    function loadDiet(diet) {
+        const diets = diet.nutrition;
+        const selectedDiet = diets.find(item => item.diet === input);
+
+        if (selectedDiet) {
+            const mainContainer = document.getElementById("main_container");
+            const imageContainer = document.getElementById("image_container");
+
+            mainContainer.innerHTML = `
+                <h2>${selectedDiet.diet}</h2>
+                <p>${selectedDiet.description}</p>
+                <p><strong>Benefits:</strong> ${selectedDiet.benefits}</p>
+                <p><strong>Downsides:</strong> ${selectedDiet.downsides}</p>
+            `;
+
+            imageContainer.innerHTML = `<img src="${selectedDiet.image}" alt="${selectedDiet.diet} Image">`;
+        } else {
+            console.error("Diet not found");
+        }
+    }
+}
