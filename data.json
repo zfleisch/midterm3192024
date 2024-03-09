@@ -63,14 +63,14 @@
             "image": "./images/medi.jpeg"
         },
         {
-            "diet": "WeightWatchers",
+            "diet": "Weight Watchers",
             "description": "The Weight Watchers diet is one of the most popular weight loss programs worldwide. It does not restrict any food group however people on WW must eat within their set number of daily points to reach their ideal weight.",
             "benefits": "The most simple and straight forward. Eat less calories to lose weight. Due to this simplicity WW provides flexibility to eat what you want ",
             "downsides": "Price: Wight watchers is not a free plan and depending on the subscription you get it can be costly.",
             "image": "./images/WW_Logo.jpg"
         },
         {
-            "diet": "IntermittentFasting",
+            "diet": "Intermittent Fasting",
             "description": "Intermittent fasting is a dietary strategy that cycles between periods of fasting and eating. Th emost common method is the 16/8 method which invloves limiting the time you eat to only 8 hours a day and fasting for the remaining 16 hours.",
             "benefits": "Intermittent fasting has been linked to anti-aging effects, increased insulin sensitivity, improved brain health, and reduced inflammation.",
             "downsides": "Fasting is difficult for some as you need to fight off your urge to eat during certain times of the day.",

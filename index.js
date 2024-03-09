@@ -108,13 +108,14 @@ function getDiet(input) {
             const imageContainer = document.getElementById("diet_image_container");
 
             mainContainer.innerHTML = `
-                <h2>${selectedDiet.diet}</h2>
-                <p>${selectedDiet.description}</p>
-                <p><strong>Benefits:</strong> ${selectedDiet.benefits}</p>
-                <p><strong>Downsides:</strong> ${selectedDiet.downsides}</p>
+                <h1>${selectedDiet.diet}</h1>
+                <h3>${selectedDiet.description}</h3>
+                <strong>Benefits:</strong> ${selectedDiet.benefits}
+                <h2></h2>
+                <strong>Downsides:</strong> ${selectedDiet.downsides}
             `;
 
-            imageContainer.innerHTML = `<img src="${selectedDiet.image}" alt="${selectedDiet.diet} Image">`;
+            imageContainer.innerHTML = `<img src="${selectedDiet.image}" width ="500" alt="${selectedDiet.diet} Image">`;
         } else {
             console.error("Diet not found");
         }

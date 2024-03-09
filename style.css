@@ -77,3 +77,18 @@
     margin-bottom: 20px;
     font-size: 30px;
 }
+.horizontal_container .nutrition_buttons
+{
+    width: 180px;
+}
+.horizontal_container .nutrition_buttons button
+{
+    display: block;
+    color: #f2f2f2;
+    background-color: #333;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}

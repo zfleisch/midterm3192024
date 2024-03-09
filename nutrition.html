@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
     <div class="nav">
         <a href="./index.html">Home</a>
         <a href="./routines.html">Routines</a>
@@ -16,10 +17,10 @@
 </head>
 <body style="background-color: grey;" onload="javascript:getDiet('Mediterranean')">
     <div class="horizontal_container">
-        <div class="buttons">
+        <div class="nutrition_buttons">
             <button type="button" onclick="getDiet('Mediterranean');">Mediterranean Diet</button>
-            <button type="button" onclick="getDiet('WeightWatchers');">Weight Watchers Diet</button>
-            <button type="button" onclick="getDiet('IntermittentFasting');">Intermittent Fasting</button>
+            <button type="button" onclick="getDiet('Weight Watchers');">Weight Watchers Diet</button>
+            <button type="button" onclick="getDiet('Intermittent Fasting');">Intermittent Fasting</button>
             <button type="button" onclick="getDiet('Keto');">Keto Diet</button>
         </div>
         <div id="diet_main_container">
