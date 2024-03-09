@@ -104,8 +104,8 @@ function getDiet(input) {
         const selectedDiet = diets.find(item => item.diet === input);
 
         if (selectedDiet) {
-            const mainContainer = document.getElementById("main_container");
-            const imageContainer = document.getElementById("image_container");
+            const mainContainer = document.getElementById("diet_main_container");
+            const imageContainer = document.getElementById("diet_image_container");
 
             mainContainer.innerHTML = `
                 <h2>${selectedDiet.diet}</h2>
